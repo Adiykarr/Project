@@ -1,5 +1,5 @@
 import pytest
-from area import calculate_area_square  
+from src.area import calculate_area_square  
 
 def test_calculate_area_square_valid():
     assert calculate_area_square(5) == 25
